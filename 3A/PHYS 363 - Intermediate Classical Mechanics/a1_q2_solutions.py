@@ -21,7 +21,7 @@ def eq2(a, b, y2):
     return np.exp((b + 1.0) / a) + np.power(a, 2.0) * np.exp(-(b + 1.0) / a) - 2.0 * y2;
 
 N = 1001
-grid = 0.001;
+grid = 1;
 Y1 = 1.0;
 Y2 = 0.5871;
 
